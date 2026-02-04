@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Purple background */
+.wrapper {
+    min-height: 100vh;
+    background: #9b1cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Light card */
+.card {
+    width: 90%;
+    max-width: 1000px;
+    background: #eeeeee;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+/* Text areas */
+.text-box {
+    display: flex;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+textarea {
+    width: 50%;
+    height: 240px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    outline: none;
+    background: #eeeeee;
+}
+
+textarea:first-child {
+    border-right: 1px solid #aaa;
+}
+
+/* Dropdown section */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+select {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+/* Translate button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #8f00ff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6f00cc;
+}
